@@ -1,0 +1,76 @@
+img{
+    position: absolute;
+}
+
+#heading{
+    background-color: gray;
+    font-family: serif, "Georgia";
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    width:940px;
+    height:200px;
+    margin: auto;
+    padding: 50px;
+}
+
+#highlight { color: purple;
+    font-size: 300px;
+    text-align: center;
+    width: 940px;
+    height: 200px;
+    margin: auto;
+    padding: 20px;
+    position: absolute;
+    background-color: lightslategray;
+
+}
+
+h2{ font-size: 50px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+#container{
+    width: 940px;
+    height:627px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%, -50%);
+    z-index: 0
+}
+
+
+#lightning1{
+
+    position: absolute;
+    z-index: 1;
+    right: 130px;
+    top: 20px;
+
+}
+
+#lightning2{
+
+    position: absolute;
+    z-index: 1;
+    left: 130px;
+    top: 20px;
+}
+
+
+#Pikachu{
+    transform: scale(0.5);
+    position: absolute;
+    bottom: 100px;
+    right: 170px;
+    z-index: 2;
+}
